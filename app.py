@@ -34,13 +34,13 @@ from telebot import types
 load_dotenv()
 
 # configuration Section  
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = os.getenv('7105712052:AAGBSbUiLzffkGu5acMxHj7zgXHdeXH45EQ')
 API_URL = os.getenv('API_URL')
 
 
-ADMIN_ID = #Replace_id
-AUTHORIZED_USERS = []
-AUTHORIZED_GROUPS = [] 
+ADMIN_ID = 1525203313
+AUTHORIZED_USERS = [1525203313]
+AUTHORIZED_GROUPS = [-1001816138912] 
 
 
 # Initialize the bot with the token from environment variable
@@ -51,16 +51,16 @@ app = FastAPI()
 
 WELCOME_MSG = """<b>
 ╔═══════════════════                                                   
-║  Type @#replace_botusername ...              ══════════════════
+║  Type @ ...              ══════════════════
 ║  for search movies on ott 
 ║  Where is Available    !!                       
 ║         
-║ ¶ Developed By : [Lulli]    
+║ ¶ Developed By : [some chumtiya]    
 ╚══════════════════
 </b>
 """
-IMAGE_URL = "#replace image url"
-ANIMATION_STICKER_ID = "#replace_sticker_id"
+IMAGE_URL = "https://envs.sh/2ZB.jpg"
+ANIMATION_STICKER_ID = "CAACAgUAAxkBAAIIb2e4rKR8HHFcVe3RLbpRwJfG5PiTAAK5AgACW2CBVQhLrIzG5jChNgQ"
 
 
 # Inline keyboard buttons
