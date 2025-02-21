@@ -1,0 +1,12 @@
+httpx
+beautifulsoup4
+fastapi
+uvicorn
+telebot
+urllib3
+html5lib
+fuzzywuzzy 
+python-Levenshtein
+cloudinary
+python-dotenv
+requests
