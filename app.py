@@ -34,7 +34,7 @@ from telebot import types
 load_dotenv()
 
 # configuration Section  
-BOT_TOKEN = os.getenv('7105712052:AAGBSbUiLzffkGu5acMxHj7zgXHdeXH45EQ')
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 API_URL = os.getenv('API_URL')
 
 
